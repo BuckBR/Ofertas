@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space1" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space2" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/space3" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout2"
+        android:layout_marginBottom="0.0dp"
+        android:minWidth="25px"
+        android:minHeight="25px" />
+    <TextView
+        android:text="Login:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="61.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:layout_marginRight="0.0dp"
+        android:layout_marginLeft="31.0dp"
+        android:layout_marginTop="41.0dp" />
+    <EditText
+        android:inputType="textEmailAddress"
+        android:layout_width="307.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEmail"
+        android:layout_marginRight="0.0dp"
+        android:layout_marginLeft="29.0dp" />
+    <TextView
+        android:text="Senha:"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="126.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginLeft="26.5dp"
+        android:layout_marginTop="19.5dp" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="305.0dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSenha"
+        android:layout_marginLeft="31.5dp" />
+    <Button
+        android:text="Login"
+        android:layout_width="182.5dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogin"
+        android:layout_marginLeft="102.5dp"
+        android:layout_marginTop="39.5dp"
+        android:onClick="startSecondActivity" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3">
+        <Button
+            android:text="G"
+            android:layout_width="118.0dp"
+            android:layout_height="50.0dp"
+            android:id="@+id/btbGoogle"
+            android:layout_marginLeft="30.0dp"
+            android:layout_marginTop="97.5dp"
+            android:layout_marginRight="22.5dp" />
+        <Button
+            android:text="F"
+            android:layout_width="128.0dp"
+            android:layout_height="45.5dp"
+            android:id="@+id/btnFace"
+            android:layout_marginTop="97.0dp"
+            android:layout_marginLeft="47.5dp" />
+    </LinearLayout>
+</LinearLayout>
